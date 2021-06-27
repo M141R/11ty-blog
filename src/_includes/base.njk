@@ -5,7 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css " />
-    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <link rel="icon" type="image/png" href="../assets/favicon.png" />
+    <link rel="stylesheet" href="../assets/Fonts/Blogger/stylesheet.css"
+    type="text/css" charset="utf-8>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../assets/Fonts/Nasalization/MyFontsWebfontsKit.css"
+    />
+    <script
+      defer
+      src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+    ></script>
     <title>{{ title }}</title>
   </head>
   <body>
@@ -17,7 +28,7 @@
 
     <script>
       if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
+        window.netlifyIdentity.on("init", (user) => {
           if (!user) {
             window.netlifyIdentity.on("login", () => {
               document.location.href = "/admin/";

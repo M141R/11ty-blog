@@ -1,0 +1,27 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4110279, 2021-06-27T09:13:04-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: NasalizationRg-Regular by Typodermic
+ * URL: https://www.myfonts.com/fonts/typodermic/nasalization/regular/
+ * Copyright: (c) 1999-2015 Typodermic Fonts Inc.
+ * 
+ * 
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+
+  
+@font-face {
+  font-family: "Nasalization";
+  src: url('webFonts/NasalizationRgRegular/font.woff2') format('woff2'), url('webFonts/NasalizationRgRegular/font.woff') format('woff');
+}
+
