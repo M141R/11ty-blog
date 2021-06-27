@@ -1,15 +1,15 @@
 backend:
-
   name: git-gateway
 
   branch: main
+
+publish_mode: editorial_workflow
 
 media_folder: "public/assets/blog"
 
 public_folder: "/assets/blog"
 
 collections:
-
   - name: "blog"
 
     label: "Blog"
@@ -21,7 +21,6 @@ collections:
     slug: "{{slug}}"
 
     fields:
-
       - { label: "Title", name: "title", widget: "string" }
 
       - { label: "Description", name: "description", widget: "string" }
@@ -34,6 +33,11 @@ collections:
 
       - { label: "Featured Image", name: "image", widget: "image" }
 
-      - { label: "Image caption", name: "imageAlt", widget: "string" }
+      - {
+          label: "Image caption",
+          name: "imageAlt",
+          widget: "string",
+          required: false,
+        }
 
       - { label: "Body", name: "body", widget: "markdown" }
