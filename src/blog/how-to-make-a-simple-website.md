@@ -30,7 +30,7 @@ You can open any text editor. Eg: Notepad, SublimeText, VS Code.
 </html>
 ```
 
-##### Explaination
+#### Explaination
 
 * The `<!DOCTYPE html>` declaration defines that this document is an HTML5 document.
 * The `<html>` element is the root element of an HTML page.
