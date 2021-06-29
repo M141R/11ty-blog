@@ -23,7 +23,7 @@ You can open any text editor. Eg: Notepad, SublimeText, VS Code.
 <!DOCTYPE html>
 <html>
   <head>
-    <title> </title>
+    <title>My Awesome Website</title>
   </head>
   <body>
   </body>
