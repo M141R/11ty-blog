@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css " />
     <link rel="icon" type="image/png" href="../assets/favicon.png" />
-    <link rel="stylesheet" href="/assets/Fonts/Blogger/stylesheet.css">
+    <link rel="stylesheet" href="/assets/Fonts/Blogger/stylesheet.css" />
     <link
       rel="stylesheet"
       type="text/css"
@@ -30,6 +30,13 @@
 
       gtag("config", "G-7Z32SV1ZRC");
     </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.0/styles/default.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.0/highlight.min.js"></script>
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.0.0/languages/go.min.js"></script>
     <title>{{ title }}</title>
   </head>
   <body>
@@ -50,5 +57,6 @@
         });
       }
     </script>
+    <script>hljs.highlightAll();</script>
   </body>
 </html>
