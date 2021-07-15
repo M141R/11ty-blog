@@ -1,5 +1,5 @@
 ---
-title: HTML INTRO
+title: HTML Introduction
 description: First part of html series
 author: Mihir
 date: 2021-07-15T09:34:58.930Z
