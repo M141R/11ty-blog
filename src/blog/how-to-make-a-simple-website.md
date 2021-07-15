@@ -7,7 +7,7 @@ tags:
   - post
   - featured
   - html
-image: /assets/blog/macbook-2.png
+image: /assets/blog/html-introduction.png
 ---
 ## What is HTML?
 
