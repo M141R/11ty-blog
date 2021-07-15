@@ -1,40 +1,66 @@
 ---
-title: How to make a simple website
-description: Learn to make a simple Website using HTML
+title: HTML INTRO
+description: First part of html series
 author: Mihir
-date: 2021-06-29T04:43:33.916Z
+date: 2021-07-15T09:34:58.930Z
 tags:
   - post
   - featured
-image: https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2Vic2l0ZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
+  - html
+image: /assets/blog/macbook-2.png
 ---
-## Learn to make a website using HTML
+## What is HTML?
 
-### What is HTML?
+- HTML stands for Hyper-Text Markup Language
+- Hyper-Text refers to the hyperlinks
+- HTML is the standard markup language for creating Web pages
+- HTML describes the structure of a Web page
+- HTML files are saved using `.html` or `.htm` extension.
 
-* HTML stands for Hyper Text Markup Language
-* HTML is the standard markup language for creating Web pages
-* HTML describes the structure of a Web page
+## HTML Page Structure
 
-1. ### Open a text editor
+Things start with the Document Type Declaration (aka *doctype*), a way to tell the browser this is an HTML page, and which version of HTML we are using.
 
-You can open any text editor. Eg: Notepad, SublimeText, VS Code.
+Modern HTML uses this doctype:
+
+```html
+<!DOCTYPE html>
+```
+
+Then we have the html element, which has an opening and closing tag:
 
 ```html
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Awesome Website</title>
-  </head>
-  <body>
-  </body>
+...
 </html>
 ```
 
-#### Explaination
+All tags have an opening and closing tag. Except a few self-closing 
+tags that don’t need a closing one because they don’t contain anything *in them*.
 
-* The `<!DOCTYPE html>` declaration defines that this document is an HTML5 document.
-* The `<html>` element is the root element of an HTML page.
-* The `<head>` element contains meta-information about the HTML page.
-* The `<title>` element specifies a title for the HTML page (which is shown in the browser's title bar or the page's tab).
-* The `<body>` element defines the document's body and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The closing tag is same as the opening one, but with a `/`.
+
+The `html` starting tag is used at the beginning of the document, right after the document type declaration.
+
+The `html` ending tag is the last thing present in an HTML document.
+
+Inside the `html` element we have 2 elements: `head` and `body`:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+...
+</head>
+<body>
+...
+</body>
+</html>
+```
+
+Inside `head`, we will have tags that are essential to creating a web page, like the title, the metadata, and internal or external CSS and JavaScript. Mostly things that do not directly appear on the page, but only help the browser display it properly 
+
+Inside `body` we will have the content of the page. The visible stuff.
+
+Next Part - HTML Head
