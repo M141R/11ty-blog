@@ -1,12 +1,13 @@
 ---
-title: Introduction to HTML
-description: Basics of HTML
+title: HTML Intro
+description: First part of html series
 author: Mihir
-date: 2021-07-14T16:27:02.458Z
+date: 2021-07-15T09:34:58.930Z
 tags:
   - post
   - featured
-image: https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8d2Vic2l0ZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60
+  - html
+image: /assets/blog/macbook-2.png
 ---
 ## What is HTML?
 
