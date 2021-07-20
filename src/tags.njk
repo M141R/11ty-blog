@@ -1,0 +1,17 @@
+---
+title: Tag Page
+layout: base.njk
+---
+
+<div class="section container">
+  <div class="tag-list tag-list--no-wrap">
+    <h3 class="tag-list__title">Articles Tagged: "{{ tag | capitalize }}"</h3>
+  </div>
+
+  {% set postslist = collections[tag] %} {% set show_postslist_tags = true %} {%
+  include "postslist.njk" %}
+
+  <nav>
+    <a href="{{ '/blog/' | url }}" class="btn btn--primary">← Back to Blog</a>
+  </nav>
+</div>

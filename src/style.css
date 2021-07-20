@@ -35,10 +35,6 @@
   }
 }
 
-/* //////////////////////
-  RESET - source: https://piccalil.li/blog/a-modern-css-reset
-  /////////////////////// */
-
 /* Box sizing rules */
 *,
 *::before,
@@ -326,7 +322,7 @@ section,
 .snippet__image {
   grid-area: image;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 5 / 3;
   object-fit: cover;
 }
 .snippet__title {
@@ -348,6 +344,7 @@ section,
 .snippet__title {
   color: var(--clr-neutral-900);
   font-size: var(--fs-500);
+  text-decoration: none;
 }
 
 .snippet__title a {
@@ -412,4 +409,56 @@ section,
 .btn--neutral:focus {
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag-list--no-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px 0 30px;
+}
+
+@media (min-width: 1024px) {
+  .tag-list--no-wrap {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+}
+
+.tag-list__title {
+  width: 100%;
+  margin-top: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 1024px) {
+  .tag-list__title {
+    margin-bottom: 0;
+  }
+}
+
+.tags {
+  margin: 10px 10px 0 0;
+  padding: 6px 8px;
+  background-color: var(--clr-primary-400);
+  border-radius: 5px;
+  color: var(--clr-neutral-100);
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.tags:hover {
+  border: none;
+}
+
+.tags:first-child {
+  margin-left: 0;
 }

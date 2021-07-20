@@ -16,6 +16,16 @@ layout: "base.njk"
     </figure>
     
     {{ content | safe }}
-  
+    {% if tags %}
+    <p class="tag-list">
+      <p>Tags:</p>
+    {% for tag in tags %}
+      {%- if tag != "post" -%}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a class="tags" href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+    </p>
+  {% endif %}
 </div>
 </article>
