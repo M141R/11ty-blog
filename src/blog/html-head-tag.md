@@ -62,7 +62,7 @@ Or you can load an external Javascript file using `src` attribute:
 <script src="file.js"></script>
 ```
 
-In modern JavaScript we have an alternative, more performant than keeping the script at the bottom of the page - `defer` attribute:
+In modern JavaScript we have an alternative, more preformat than keeping the script at the bottom of the page - `defer` attribute:
 
 ```html
 <script defer src="file.js"></script>
